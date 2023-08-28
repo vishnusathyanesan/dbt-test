@@ -1,0 +1,16 @@
+dbt_private_project:
+  target: dev
+  outputs:
+    dev:
+      type: trino
+      method: ldap 
+      user: admin@test.io
+      password: ascon
+      host: engine-johnyrahul.internal.zipstack.io
+      database: hypertables
+      schema: trs1_schema
+      port: 443
+      threads: 1
+
+
+    

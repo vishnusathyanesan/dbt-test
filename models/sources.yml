@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: live_hypertable
+    schema: default
+    tables:
+      - name: customer
+        identifier: hycustomer
+      
+ 
